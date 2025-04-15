@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gym</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Fitness Gym</h1>
+        <div class="input-group">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" required>
+        </div>
+        <div class="input-group">
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" required>
+        </div>
+        <div class="input-group">
+            <label for="goal">Goal:</label>
+            <input type="text" id="goal" placeholder="Enter 'bulk' or 'cuts'" required>
+        </div>
+        <button id="searchBtn">Search</button>
+        <div id="results"></div>
+        <div class="motivations">
+            <h2>Motivational Images</h2>
+            <div class="images">
+                <img src="motiv1.png" alt="Motivation 1">
+                <img src="motiv2.png" alt="Motivation 2">
+                <img src="motiv3.png" alt="Motivation 3">
+                <img src="motiv4.png" alt="Motivation 4">
+            </div>
+        </div>
+        <div class="supplements">
+            <h2>Supplement Pictures</h2>
+            <div class="images">
+                <img src="supple1.png" alt="Supplement 1">
+                <img src="supple2.png" alt="Supplement 2">
+            </div>
+        </div>
+    </div>
+    <div class="hero">
+        <h1>Welcome to Fitness Gym</h1>
+        <p>Your journey to a healthier lifestyle starts here!</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

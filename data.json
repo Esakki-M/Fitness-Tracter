@@ -1,0 +1,10 @@
+{
+    "bulk": {
+        "supplements": ["Protein Powder", "Creatine", "BCAAs", "Mass Gainer"],
+        "exercises": ["Day 1: Chest and Triceps", "Day 2: Back and Biceps", "Day 3: Legs", "Day 4: Shoulders", "Day 5: Rest", "Day 6: Repeat"]
+    },
+    "cuts": {
+        "supplements": ["Whey Protein", "Fat Burner", "BCAAs", "Multivitamins"],
+        "exercises": ["Day 1: Full Body Workout", "Day 2: Cardio", "Day 3: Upper Body", "Day 4: Cardio", "Day 5: Lower Body", "Day 6: Rest", "Day 7: Repeat"]
+    }
+}
